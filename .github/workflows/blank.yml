@@ -29,7 +29,7 @@ jobs:
       # Runs a single command using the runners shell
       - name: Check where we're running it
         run: |
-	  lscpu
+          lscpu
           cat /proc/cpuinfo
           update
           uname -a
